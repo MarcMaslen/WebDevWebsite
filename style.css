@@ -361,7 +361,7 @@ body {
 }
 
 .main__content h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   background: #000000; /* fallback for old browsers */
   background: black;
   background-size: 100%;
