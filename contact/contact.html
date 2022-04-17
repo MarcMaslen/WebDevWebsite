@@ -21,15 +21,44 @@
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
       crossorigin="anonymous"
     />
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YJNRKGZKGM"></script>
+
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-M72ZB74");
+    </script>
+    <!-- End Google Tag Manager -->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-YJNRKGZKGM"
+    ></script>
   </head>
   <body>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M72ZB74"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
     <!-- ========================= NAVBAR ====================================== -->
 
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="../index" id="navbar__logo"><img src="../pics/logo.png" alt=""></a>
+        <a href="../index" id="navbar__logo"
+          ><img src="../pics/logo.png" alt=""
+        /></a>
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -61,10 +90,7 @@
             >
           </li>
           <li class="navbar__item">
-            <a
-              href="contact"
-              class="navbar__links"
-              id="contact-page"
+            <a href="contact" class="navbar__links" id="contact-page"
               >Contact</a
             >
           </li>
@@ -72,10 +98,7 @@
       </div>
     </nav>
 
-
-  
-
-      <!-- ========================= About Contact ======================================  -->
+    <!-- ========================= About Contact ======================================  -->
 
     <div class="hero" id="home">
       <div class="who-container" id="who-we-are">
@@ -87,45 +110,63 @@
       </div>
     </div>
 
-  
-      <!-- ========================= contact ======================================  -->
-      <section id="contact">
-        <div class="contact-box">
-          <div class="contact-links">
-            <h2>Email: <span>bluezerowebdesigns@gmail.com</span></h2>
-            <div class="links">
-              <div class="link">
-                <a class="img-links" href="https://www.linkedin.com/in/marc-maslen-489b48189/" target="_blank"><img src="https://i.postimg.cc/m2mg2Hjm/linkedin.png" alt="linkedin"></a>
-              </div>
-              <div class="link">
-                <a class="img-links" href="https://github.com/MarcMaslen" target="_blank"><img src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github"></a>
-              </div>
-              <div class="link">
-                <a class="img-links"><img src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email"></a>
-              </div>
+    <!-- ========================= contact ======================================  -->
+    <section id="contact">
+      <div class="contact-box">
+        <div class="contact-links">
+          <h2>Email: <span>bluezerowebdesigns@gmail.com</span></h2>
+          <div class="links">
+            <div class="link">
+              <a
+                class="img-links"
+                href="https://www.linkedin.com/in/marc-maslen-489b48189/"
+                target="_blank"
+                ><img
+                  src="https://i.postimg.cc/m2mg2Hjm/linkedin.png"
+                  alt="linkedin"
+              /></a>
+            </div>
+            <div class="link">
+              <a
+                class="img-links"
+                href="https://github.com/MarcMaslen"
+                target="_blank"
+                ><img
+                  src="https://i.postimg.cc/YCV2QBJg/github.png"
+                  alt="github"
+              /></a>
+            </div>
+            <div class="link">
+              <a class="img-links"
+                ><img src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email"
+              /></a>
             </div>
           </div>
-          <div class="contact-form-wrapper">
-            <h2>CONTACT</h2>
-            <form action="https://formsubmit.co/22d2167a5c67afd4b4e01f1699637974" target="_Self" method="POST">
-              <div class="form-item">
-                <input type="text" name="name" required>
-                <label>Name:</label>
-              </div>
-              <div class="form-item">
-                <input type="email" name="email" required>
-                <label>Email:</label>
-              </div>
-              <div class="form-item">
-                <textarea class="" name="message" required></textarea>
-                <label>Message:</label>
-              </div>
-              <button class="submit-btn">Send</button>  
-            </form>
-          </div>
         </div>
-      </section>
-
+        <div class="contact-form-wrapper">
+          <h2>CONTACT</h2>
+          <form
+            action="https://formsubmit.co/22d2167a5c67afd4b4e01f1699637974"
+            target="_Self"
+            method="POST"
+          >
+            <div class="form-item">
+              <input type="text" name="name" required />
+              <label>Name:</label>
+            </div>
+            <div class="form-item">
+              <input type="email" name="email" required />
+              <label>Email:</label>
+            </div>
+            <div class="form-item">
+              <textarea class="" name="message" required></textarea>
+              <label>Message:</label>
+            </div>
+            <button class="submit-btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
     <!-- ========================= footer ======================================  -->
     <div class="footer__container">
@@ -133,24 +174,31 @@
         <div class="footer__link--wrapper">
           <div class="footer__link--items">
             <h2>Navigation</h2>
-            <a href="../about-us/about">About Us</a> <a href="../services/services">Services</a>
-            <a href="../portfolio/portfolio">Portfolio</a><a href="contact">Contact Us</a>
+            <a href="../about-us/about">About Us</a>
+            <a href="../services/services">Services</a>
+            <a href="../portfolio/portfolio">Portfolio</a
+            ><a href="contact">Contact Us</a>
           </div>
           <div class="footer__link--items">
             <h2>Portfolio</h2>
-            <a href="https://www.marcmaslenportfolio.com" target="_blank">Marc's portfolio</a>
+            <a href="https://www.marcmaslenportfolio.com" target="_blank"
+              >Marc's portfolio</a
+            >
           </div>
         </div>
         <div class="footer__link--wrapper">
           <div class="footer__link--items">
             <h2>Services</h2>
-            <a href="../services/services">Web Design</a> <a href="../services/services">Web Hosting</a>
-            <a href="../services/services">Website Management</a><a href="../services/services">Content Creation</a>
+            <a href="../services/services">Web Design</a>
+            <a href="../services/services">Web Hosting</a>
+            <a href="../services/services">Website Management</a
+            ><a href="../services/services">Content Creation</a>
           </div>
           <div class="footer__link--items">
             <h2>Social</h2>
-            <a href="/">Youtube</a> <a href="https://twitter.com/Swiftyair1" target="_blank">Twitter</a>
-            <a >Email: bluezerowebdesigns@gmail.com</a>
+            <a href="/">Youtube</a>
+            <a href="https://twitter.com/Swiftyair1" target="_blank">Twitter</a>
+            <a>Email: bluezerowebdesigns@gmail.com</a>
           </div>
         </div>
       </div>
@@ -172,10 +220,16 @@
             <a href="/" class="social__icon--link"
               ><i class="fab fa-youtube"></i
             ></a>
-            <a href="https://www.linkedin.com/in/marc-maslen-489b48189/" target="_blank" class="social__icon--link"
+            <a
+              href="https://www.linkedin.com/in/marc-maslen-489b48189/"
+              target="_blank"
+              class="social__icon--link"
               ><i class="fab fa-linkedin"></i
             ></a>
-            <a href="https://twitter.com/Swiftyair1" target="_blank" class="social__icon--link"
+            <a
+              href="https://twitter.com/Swiftyair1"
+              target="_blank"
+              class="social__icon--link"
               ><i class="fab fa-twitter"></i
             ></a>
           </div>
