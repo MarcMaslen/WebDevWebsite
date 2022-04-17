@@ -76,88 +76,100 @@ body{
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 960px){
-    .navbar__container{
-        display: flex;
-        justify-content: space-between;
-        height: 60px;
-        z-index: 1;
-        width: 100%;
-        max-width: 1300px;
-        padding: 0;
-        
-    }
+@media screen and (max-width: 960px) {
 
-    .navbar__menu{
-        display: grid;
-        grid-template-columns: auto;
-        margin: 0;
-        width: 100%;
-        position: absolute;
-        top: -1000px;
-        opacity: 1;
-        transition: all 0.5s ease;
-        z-index: -1;
-    }
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
 
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0;
+  }
 
-    .navbar__menu.active{
-        background: rgb(19, 126, 175);
-        top: 90%;
-        opacity: 100%;
-        transition: all 0.5s ease;
-        z-index: 99;
-        height: 60vh;
-        font-size: 1.6rem;
-    }
+  .navbar__menu {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: -1000px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: -1;
+  }
 
-    #navbar__logo{
-        padding-left: 35px;
-        font-size: 1.5rem;
-        background-color: black;
-    }
+  .navbar__menu.active {
+    background: rgb(19, 126, 175);
+    top: 90%;
+    opacity: 100%;
+    transition: all 0.5s ease;
+    z-index: 99;
+    height: 60vh;
+    font-size: 1.6rem;
+  }
 
-    .navbar__toggle .bar{
-        width: 25px;
-        height: 3px;
-        margin: 5px 30px;
-        transition: all 0.3s ease-in-out;
-        background-color: rgb(255, 255, 255);
-    }
-    .navbar__item{
-        width: 100%;
-    }
+  #navbar__logo {
+    padding-left: 35px;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+  }
 
-    .navbar__links{
-        text-align: center;
-        padding: 2rem;
-        width: 100%;
-        display: table;
-    }
+  #navbar__logo img{
+    width: 220px;
+    height: 50px;
+  }
 
-    #mobile-menu{
-        position: absolute;
-        top: 20%;
-        right: 20px;
-        transform: translate(5%, 20%);
-    }
+  .navbar__toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px 30px;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(255, 255, 255);
+  }
+  .navbar__item {
+    width: 100%;
+  }
 
-    .navbar__toggle .bar{
-        display: block;
-        cursor: pointer;
-    }
+  .navbar__links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
 
-    #mobile-menu.is-active .bar:nth-child(2){
-        opacity: 0;
-    }
+  #mobile-menu {
+    position: absolute;
+    top: 20%;
+    right: 20px;
+    transform: translate(5%, 20%);
+  }
 
-    #mobile-menu.is-active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
+  .navbar__toggle .bar {
+    display: block;
+    cursor: pointer;
+  }
 
-    #mobile-menu.is-active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
+  #mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  #mobile-menu.is-active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
 }
 
 
@@ -249,21 +261,31 @@ hr.solid {
   background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
 }
 
+  /*Pricing*/
+  .container{
+    background: white;
+    max-width: 100%;
+    padding: 0 15rem;
+  }
+  
+  .row{
+    color: #000000;
+  }
+
 /* Mobile Responsive */
 @media screen and (max-width: 1100px) {
+
+
   .main__container {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    justify-content: center;
     width: 100%;
-    margin: 0 auto;
-    height: 90%;
+    padding: 0 3rem;
   }
+  
 
   .main__img--container {
     display: flex;
     justify-content: center;
+    
   }
 
   .main__img--card {
@@ -285,6 +307,12 @@ hr.solid {
     font-size: 1rem;
   }
 
+  .container{
+    background: white;
+    max-width: 100%;
+    padding: 0 2rem;
+  }
+
   .main__content p {
     margin-top: 1rem;
     font-size: 1.5rem;
@@ -293,8 +321,8 @@ hr.solid {
 
 @media screen and (max-width: 480px) {
   .main__img--card {
-    width: 250px;
-    height: 250px;
+    width: 50px;
+    height: 50px;
   }
 
   .fa-code,
@@ -305,10 +333,10 @@ hr.solid {
 
   .main__content h1 {
     font-size: 2rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   .main__content h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .main__content p {
@@ -319,19 +347,6 @@ hr.solid {
     padding: 12px 36px;
     margin: 2.5rem 0;
   }
-}
-
- 
-
-  /*Pricing*/
-.container{
-  background: white;
-  max-width: 100%;
-  padding: 0 15rem;
-}
-
-.row{
-  color: #000000;
 }
 
 

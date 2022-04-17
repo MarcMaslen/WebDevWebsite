@@ -90,6 +90,25 @@ body{
         
     }
 
+    html, body {
+      overflow-x: hidden;
+    }
+    body {
+      position: relative
+    }
+
+    #navbar__logo {
+      padding-left: 35px;
+      width: 200px;
+      height: 50px;
+      background-color: black;
+    }
+  
+    #navbar__logo img{
+      width: 220px;
+      height: 50px;
+    }
+
     .navbar__menu{
         display: grid;
         grid-template-columns: auto;
@@ -358,6 +377,11 @@ a {
   .card-grid-space, .num {
     margin-left: 0;
     text-align: center;
+  }
+
+  .hero p{
+    text-align: center;
+    margin: 1rem 3rem 0rem 3rem;
   }
 }
 

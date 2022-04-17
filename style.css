@@ -74,6 +74,14 @@ body {
 }
 
 @media screen and (max-width: 960px) {
+
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
   .navbar__container {
     display: flex;
     justify-content: space-between;
@@ -108,8 +116,14 @@ body {
 
   #navbar__logo {
     padding-left: 35px;
-    font-size: 1.5rem;
+    width: 200px;
+    height: 50px;
     background-color: black;
+  }
+
+  #navbar__logo img{
+    width: 220px;
+    height: 50px;
   }
 
   .navbar__toggle .bar {
@@ -441,6 +455,17 @@ body {
   background-image: linear-gradient(325deg, #1a8dcf, #2956d4 100%);
 }
 
+/*Pricing*/
+.container{
+  background: white;
+  max-width: 100%;
+  padding: 0 10rem;
+}
+
+.row{
+  color: #000000;
+}
+
 /* Mobile Responsive */
 @media screen and (max-width: 1100px) {
   .main__container {
@@ -451,6 +476,11 @@ body {
     width: 100%;
     margin: 0 auto;
     height: 90%;
+  }
+
+  .who-container {
+    background-color: #ffffff;
+    padding: 5rem 2rem;
   }
 
   .main__img--container {
@@ -481,6 +511,18 @@ body {
     margin-top: 1rem;
     font-size: 1.5rem;
   }
+
+  .container{
+    background: white;
+    max-width: 100%;
+    padding: 0 2rem;
+  }
+
+  .who__img--card {
+    height: 15rem;
+    width: 13rem;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -512,16 +554,11 @@ body {
   }
 }
 
-/*Pricing*/
-.container{
-  background: white;
-  max-width: 100%;
-  padding: 0 10rem;
-}
 
-.row{
-  color: #000000;
-}
+
+
+
+
 
 /* Footer CSS */
 .footer__container {

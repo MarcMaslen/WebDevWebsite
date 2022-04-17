@@ -107,8 +107,14 @@ body {
 
   #navbar__logo {
     padding-left: 35px;
-    font-size: 1.5rem;
+    width: 200px;
+    height: 50px;
     background-color: black;
+  }
+
+  #navbar__logo img{
+    width: 220px;
+    height: 50px;
   }
 
   .navbar__toggle .bar {
@@ -157,7 +163,7 @@ body {
 .hero {
   background: url("..//pics/SVG/home1.svg") no-repeat;
   background-size: cover;
-  padding: 150px 0 100px 0;
+  padding: 170px 0 100px 0;
   margin-top: 40px;
 }
 
@@ -250,6 +256,32 @@ body {
   margin: 0 10rem 10 rem;
   font-size: 1.2rem;
   font-weight: 530;
+}
+
+
+@media screen and (max-width: 768px) {
+  .who__container,
+  .help__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 90%;
+  }
+
+  .who__img--card {
+    height: 25rem;
+    width: 20rem;
+  
+  }
+
+  .who-container {
+    background-color: #ffffff;
+    padding: 5rem 2rem;
+  }
+
 }
 
 /* help section*/
@@ -413,6 +445,20 @@ body {
   transform: scale(1.075);
   transition: 0.3s ease-in;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+  .services__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 0rem 0 0rem 2rem;
+  }
+
+  .help__content {
+    
+  }
 }
 
 
