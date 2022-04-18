@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Design + Development | Blue Zero Web Designs</title>
+    <link rel="icon" type="image/x-icon" href="pics/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
@@ -49,7 +50,7 @@
 
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="#home" id="navbar__logo"><img src="pics/logo.png" alt=""></a>
+        <a href="#home" id="navbar__logo"><img src="pics/logo1.png" alt=""></a>
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -102,8 +103,8 @@
             <span>Development</span>
           </h1>
           <p class="hero__description">
-            We offer website management and hand-coded websites with hosting
-            starting at only £149/Mo
+            We offer hand-coded websites with results superior than page builders or Wordpress
+            sites, starting at only £149/mo.
           </p>
           <button class="main__btn"><a href="services/services">Services</a></button>
         </div>
@@ -115,28 +116,95 @@
     </div>
 
     <!-- ========================= About ======================================  -->
-    <div class="main" id="about">
-      <div class="main__container">
-        <div class="main__img--container">
-          <div class="main__img--card"><i class="fa fa-code"></i></div>
-        </div>
-        <div class="main__content">
-          <h1>What Do We Do?</h1>
-          
-          <h2>We build and design custom websites 100% hand-coded. We Offer Hosting 
-            and other benefits all while having 24/7 support. We make sure to use up-to-date
-            SEO and Website Optimization technics.
+    <div class="main" id="about"> 
+      <div class="main__content1">
+          <h1>What Makes Us Different</h1>
+          <h2>We Specialize in small business web design and development for clients 
+            anywhere in the UK. Websites are 100% hand-coded all with Hosting 
+            and 24/7 support and life time updates. We make sure to use up-to-date
+            SEO and Website Optimization techniques.<a href="about-us/about"> LEARN MORE</a>
           </h2>
-          <button class="main__btn">
-            <a href="about-us/about">Abous Us</a>
-          </button>
+        </div>
+      <div class="main__container1">
+        <div class="main__img--container">
+          <div class="main__img--box1">
+            <div class="main__img--card1">
+              <i class="fa-solid fa-mobile"></i>
+            </div>
+            <h1>Fully Responsive</h1>
+            <p>Your website will be accessible on all mobile sizes, 
+              tablets, and desktop sizes. Allowing all new clients to access your site.</p>
+          </div>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--box1">
+            <div class="main__img--card1">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+            <h1>24/7 Support & Hosting</h1>
+            <p>We provide 24/7 Support and life time updates to SEO content and optimization. We also do 
+              website hosting so that it is ready to use. </p>
+          </div>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--box1">
+            <div class="main__img--card1">
+              <i class="fa fa-code"></i>
+            </div>
+            <h1>Optimized Website</h1>
+            <p>We keep your website optimized at all times, most website visits come from mobile users so we aim to optimize this 
+              to be the best in search.
+            </p>
+          </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- ========================= Who we Are ======================================  -->
+
+    <div class="who-container" id="who-we-are">
+      <div class="who__container">
+        <div class="who__content">
+          <h1> Who Are We </h1>
+          <p>
+            My name is Marc, I am a University graduate with a Computer Science
+            degree. I started This business because one of my favorite hobbies
+            is creating and designing websites. Most of my spare time has been
+            spent working towards bettering myself as a developer, teaching
+            myself the best practices to build websites and write code myself.<a href="about-us/about"> LEARN MORE</a>
+          </p>
+          <div class="who__img--card">
+            <img src="pics/me.jpg" alt="Marc Maslen" />
+          </div>
+          <h2>Marc M.</h2>
+          <p>Owner / Web Developer</p>
+        </div>
+      </div>
+    </div>
+      
+
+    <!-- ========================= Featured ======================================  -->
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1><span>Want</span> To See More of our work?</h1>
+          <h2>Check out our Portfolio!</h2>
+          <p>Here is some of the work I have done both in my free time and for clients.
+          </p>
+          <button class="main__btn"><a href="portfolio/portfolio">Portfolio</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <i class="fas fa-users"></i>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- ========================= Services ======================================  -->
+
+     <!-- ========================= Services ======================================  -->
     
-    <section>
+     <section>
       <div class="container py-5">
         
         <header class="text-center mb-5 text-white">
@@ -154,7 +222,7 @@
           <div class="col-lg-4 mb-5 mb-lg-0">
             <div class="bg-white p-5 rounded-lg shadow">
               <h1 class="h6 text-uppercase font-weight-bold mb-4">Website Design</h1>
-              <h2 class="h1 font-weight-bold">£0<span class="text-small font-weight-normal ml-2">/ month</span></h2>
+              <h2 class="h1 font-weight-bold">£0<span class="text-small font-weight-normal ml-2">/month</span></h2>
     
               <div class="custom-separator my-4 mx-auto bg-primary"></div>
     
@@ -177,7 +245,7 @@
            <div class="col-lg-4 mb-5 mb-lg-0">
             <div class="bg-white p-5 rounded-lg shadow">
               <h1 class="h6 text-uppercase font-weight-bold mb-4">Standard + Website Management</h1>
-              <h2 class="h1 font-weight-bold">£149<span class="text-small font-weight-normal ml-2">/ month</span></h2>
+              <h2 class="h1 font-weight-bold">£149<span class="text-small font-weight-normal ml-2">/month</span></h2>
     
               <div class="custom-separator my-4 mx-auto bg-primary"></div>
     
@@ -202,7 +270,7 @@
            <div class="col-lg-4 mb-5 mb-lg-0">
             <div class="bg-white p-5 rounded-lg shadow">
               <h1 class="h6 text-uppercase font-weight-bold mb-4">Pro + Blogging</h1>
-              <h2 class="h1 font-weight-bold">£299<span class="text-small font-weight-normal ml-2">/ month</span></h2>
+              <h2 class="h1 font-weight-bold">£299<span class="text-small font-weight-normal ml-2">/month</span></h2>
     
               <div class="custom-separator my-4 mx-auto bg-primary"></div>
     
@@ -224,47 +292,6 @@
         </div>
       </div>
     </section>
-
-    <!-- ========================= Who we Are ======================================  -->
-
-    <div class="who-container" id="who-we-are">
-      <div class="who__container">
-        <div class="who__content">
-          <h1> Who We Are </h1>
-          <p>
-            My name is Marc, I am a University graduate with a Computer Science
-            degree. I started This business because one of my favorite hobbies
-            is creating and designing websites. Most of my spare time has been
-            spent working towards bettering myself as a developer, teaching
-            myself the best practices to build websites and write code myself.
-          </p>
-          <div class="who__img--card">
-            <img src="pics/me.jpg" alt="Marc Maslen" />
-          </div>
-          <h2>Marc M.</h2>
-          <p>Owner / Web Developer</p>
-        </div>
-      </div>
-    </div>
-
-      
-
-    <!-- ========================= Featured ======================================  -->
-    <div class="main" id="sign-up">
-      <div class="main__container">
-        <div class="main__content">
-          <h1><span>Want</span> To See More From Us?</h1>
-          <h2>Check out our Portfolio!</h2>
-          <p>See what makes us different</p>
-          <button class="main__btn"><a href="portfolio/portfolio">Portfolio</a></button>
-        </div>
-        <div class="main__img--container">
-          <div class="main__img--card" id="card-2">
-            <i class="fas fa-users"></i>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- ========================= footer ======================================  -->
     <div class="footer__container">
