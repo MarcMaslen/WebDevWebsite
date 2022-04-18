@@ -227,7 +227,7 @@ body {
     border-bottom: 2px solid rgb(0, 183, 255);
   } */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .hero__heading {
     font-size: 40px;
   }
@@ -235,6 +235,7 @@ body {
   .hero__container {
     text-align: center;
   }
+  
 
   .hero__description {
     font-size: 30px;
@@ -242,10 +243,6 @@ body {
 
   .hero-left {
     width: 100%;
-  }
-
-  .hero__img--container {
-    display: none;
   }
 }
 
@@ -542,11 +539,17 @@ body {
   .main__container {
     display: grid;
     grid-template-columns: 1fr;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
-    height: 90%;
+    padding: 0 10%;
+  }
+
+  
+  .main__container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .hero__img--container {
+    display: none;
   }
 
   .who-container {
@@ -554,9 +557,13 @@ body {
     padding: 5rem 2rem;
   }
 
+  .main__img--card1 {
+    margin: 10% 37%;
+  }
+  
+
   .main__img--container {
-    display: flex;
-    justify-content: center;
+    padding: 0 10%;
   }
 
   .main__img--card {
@@ -569,13 +576,20 @@ body {
     margin-bottom: 4rem;
   }
 
+  .main__content1 {
+    color: rgb(75, 69, 69);
+    width: 100%;
+    padding: 0 20% 5rem 20%;
+    text-align: center;
+  }
+
   .main__content h1 {
     font-size: 2rem;
     margin-top: 2rem;
   }
 
   .main__content h2 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .main__content p {
@@ -596,6 +610,10 @@ body {
 
 }
 
+
+
+
+
 @media screen and (max-width: 480px) {
   .main__img--card {
     width: 250px;
@@ -605,6 +623,13 @@ body {
   .fa-users,
   .fa-code {
     font-size: 3rem;
+  }
+
+  .main__content1 {
+    color: rgb(75, 69, 69);
+    width: 100%;
+    padding: 0 10% 5rem 10%;
+    text-align: center;
   }
 
   .main__content h1 {
@@ -747,4 +772,8 @@ body {
     padding: 10px;
     width: 100%;
   }
+  .footer__container {
+    padding: 10rem 1rem;
+  }
+  
 }
