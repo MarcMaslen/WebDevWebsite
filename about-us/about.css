@@ -192,7 +192,7 @@ body {
 }
 
 .right {
-  animation: 11s ease-out 0s 1 fadein;
+  animation: 1s ease-out 0s 1 fadein;
   display: table-column;
   align-items: center;
   justify-content: center;
