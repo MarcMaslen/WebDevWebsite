@@ -194,7 +194,7 @@ body {
 }
 
 .hero__heading {
-  animation: 2s ease-out 0s 1 fadein;
+  animation: 1s ease-out 0s 1 fadein;
   font-size: 60px;
   margin-bottom: 32px;
   color: rgb(20, 16, 16);
@@ -216,13 +216,14 @@ body {
 }
 
 .home__img {
-  animation: 2s ease-out 0s 1 fadein;
+  animation: 1s ease-out 0s 1 fadein;
   opacity: 100%;
+
 }
 
 .hero__description {
   font-size: 25px;
-  animation: 2s ease-out 0s 1 fadein;
+  animation: 1s ease-out 0s 1 fadein;
   background: #111111; /* fallback for old browsers */
   background-size: 100%;
   -webkit-background-clip: text;
@@ -435,7 +436,7 @@ body {
 
 
 .main__btn {
-  animation: 2s ease-out 0s 1 fadein;
+  animation: 1s ease-out 0s 1 fadein;
   font-size: 1.6rem;
   background-image: linear-gradient(to left, #1a8dcf, #2956d4 100%);
   padding: 10px 30px;

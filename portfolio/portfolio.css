@@ -208,13 +208,13 @@ body{
   }
 
   .hero h1{
-    animation: 2s ease-out 0s 1 fadein;
+    animation: 1s ease-out 0s 1 fadein;
     text-align: center;
     margin: 5rem 0 0 0;
   }
 
   .hero p{
-    animation: 2s ease-out 0s 1 fadein;
+    animation: 1s ease-out 0s 1 fadein;
     text-align: center;
     margin: 1rem 0 0rem  0;
   }
@@ -244,7 +244,7 @@ a {
 }
 
 .card {
-  animation: 2s ease-out 0s 1 fadein;
+  animation: 1s ease-out 0s 1 fadein;
   font-family: 'Heebo';
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
@@ -352,7 +352,7 @@ a {
 }
 
 .num{
-animation: 2s ease-out 0s 1 fadein;
+animation: 1s ease-out 0s 1 fadein;
 }
 .info {
   font-size: 1.2em;

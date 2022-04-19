@@ -214,7 +214,7 @@ hr.solid {
 }
 
 .main__content {
-  animation: 2s ease-out 0s 1 fadein;
+  animation: 1s ease-out 0s 1 fadein;
   color: rgb(99, 85, 85);
   width: 100%;
   height: 60%;
@@ -243,7 +243,7 @@ hr.solid {
 }
 
 .main__img--container {
-  animation: 2s ease-out 0s 1 fadein;
+  animation: 1s ease-out 0s 1 fadein;
   text-align: center;
 }
 

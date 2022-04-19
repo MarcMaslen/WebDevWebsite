@@ -228,7 +228,7 @@ body {
 }
 
 .who__container__text h1 {
-  animation: 2s ease-out 0s 1 fadein;
+  animation: 1s ease-out 0s 1 fadein;
   font-size: 2rem;
   background-color: #000000;
   background-size: 100%;
@@ -247,7 +247,7 @@ body {
 }
 
 .contact-box {
-  animation: 2s ease-out 0s 1 fadein;
+  animation: 1s ease-out 0s 1 fadein;
   width: clamp(100px, 90%, 1000px);
   margin: 40px 50px;
   background: #ffffff;
