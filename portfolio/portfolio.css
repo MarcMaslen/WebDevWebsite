@@ -95,6 +95,7 @@ body{
         
     }
 
+
     html, body {
       overflow-x: hidden;
     }
@@ -203,12 +204,14 @@ body{
     background-size: cover;
     padding: 100px 0 100px 0;
     margin-top: 40px;
+    
   }
 
   .hero h1{
     animation: 1s ease-out 0s 1 fadein;
     text-align: center;
     margin: 5rem 0 0 0;
+    
   }
 
   .hero p{
@@ -224,6 +227,7 @@ body{
 
 
 .container {
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -321,6 +325,14 @@ body .container .card .box .content a:hover {
 @media screen and (max-width: 1285px) {
   .cards-wrapper {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .hero {
+    background-image: linear-gradient(325deg, #1a8dcf, #2956d4 100%);
+    background-size: cover;
+    padding: 170px 0 0px 0;
+    margin-top: -80px;
+    
   }
 }
 
