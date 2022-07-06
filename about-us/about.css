@@ -113,7 +113,7 @@ body {
 
   #navbar__logo {
     padding-left: 20px;
-    width: 210px;
+    width: 110px;
     height: 65px;
     background-color: black;
   }
@@ -496,9 +496,6 @@ body {
     grid-template-columns: 1fr;
     padding: 0 10%;
   }
-
- 
-
   
   .main__container1 {
     display: grid;
@@ -522,7 +519,7 @@ body {
   }
 
   .main__img--card1 {
-    margin: 10% 37%;
+    margin: 10% 40%;
   }
   
 
@@ -578,18 +575,21 @@ body {
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .main__img--card {
     width: 250px;
     height: 250px;
   }
 
-  
-
   .fa-users,
   .fa-code {
-    font-size: 3rem;
+    font-size: 2rem;
   }
+
+  .main__img--card1 {
+    margin: 10% 35%;
+  }
+  
 
   .main__content1 {
     color: rgb(75, 69, 69);

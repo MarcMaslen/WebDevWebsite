@@ -90,7 +90,7 @@ body {
   .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 60px;
+    height: 80px;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -121,8 +121,8 @@ body {
 
   #navbar__logo {
     padding-left: 20px;
-    width: 210px;
-    height: 65px;
+    width: 110px;
+    height: 80px;
     background-color: black;
   }
 
@@ -240,10 +240,14 @@ body {
 @media screen and (max-width: 960px) {
   .hero__heading {
     font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
   .hero__container {
     text-align: center;
+    justify-content: center;
   }
   
 
@@ -477,7 +481,8 @@ body {
 }
 
 
-.main__img--container {
+.main__img--container,
+.main__img--container1 {
   padding: 0 25%;
   text-align: center;
   justify-content: center;
@@ -576,19 +581,31 @@ body {
     padding: 5rem 2rem;
   }
 
+  .fa-users {
+    font-size: 10rem;
+    margin-left: 5%;
+  }
+
+  /*about */
   .main__img--card1 {
-    margin: 10% 37%;
+    margin: 10% 40%;
   }
   
 
   .main__img--container {
-    padding: 0 10%;
+    padding: 0 20%;
   }
 
+   /*sign-up */
   .main__img--card {
-    height: 425px;
-    width: 425px;
+    height: 225px;
+    width: 225px;
   }
+
+  .main__img--container1 {
+    display: none;
+  }
+
 
   .main__content {
     text-align: center;
@@ -633,7 +650,7 @@ body {
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 570px) {
   .main__img--card {
     width: 250px;
     height: 250px;
@@ -641,7 +658,11 @@ body {
 
   .fa-users,
   .fa-code {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+
+   .main__img--card1 {
+    margin: 10% 30%;
   }
 
   .main__content1 {

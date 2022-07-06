@@ -125,7 +125,7 @@ body{
 
   #navbar__logo {
     padding-left: 20px;
-    width: 210px;
+    width: 110px;
     height: 65px;
     background-color: black;
   }
@@ -286,7 +286,7 @@ hr.solid {
 
   .main__container {
     width: 100%;
-    padding: 2rem 3rem;
+    padding: 1rem 3rem;
   }
 
   .hero {
@@ -305,18 +305,18 @@ hr.solid {
   }
 
   .main__img--card {
-    height: 425px;
-    width: 425px;
+    height: 225px;
+    width: 225px;
   }
 
   .main__content {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
   }
 
   .main__content h1 {
     font-size: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .main__content h2 {
@@ -330,7 +330,7 @@ hr.solid {
   }
 
   .main__content p {
-    margin-top: 1rem;
+    margin-top: 0rem;
     font-size: 1.5rem;
   }
 }
